@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 
-import Layout from './hoc/Layout';
+import Layout from './hoc/Layout/Layout';
 
 class App extends Component {
   render() {
     return (
-      <Layout>
-          
-      </Layout>
+      <div>
+        <Layout>
+           
+        </Layout>
+      </div>
     );
   }
 }
